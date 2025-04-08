@@ -99,6 +99,9 @@ const login = async (userInfo: UserInfo) => {
   if (success) {
     errorMessage.value = '';
     message.value = t('messages.account.loggingIn');
+    //aggiunto per problema ai cookie
+    const redirectPath = route.query.redirect || '/'
+    router.push(redirectPath as string)
   }
 };
 

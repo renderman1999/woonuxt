@@ -69,6 +69,10 @@
       "updateSuccess": "Aggiornato con successo",
       "failed": "Aggiornamento fallito"
     },
+    "informazioni": {
+      "about": "Chi Siamo",
+      "careers": "Lavora con Noi"
+    },
     "shop": {
       "shopByCategory": "Acquista per categoria",
       "popularProducts": "Prodotti popolari",

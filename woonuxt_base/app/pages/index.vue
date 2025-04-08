@@ -23,12 +23,12 @@ useSeoMeta({
     <HeroBanner />
 
     <div class="container flex flex-wrap items-center justify-center my-16 text-center gap-x-8 gap-y-4 brand lg:justify-between">
-      <img src="/images/logoipsum-211.svg" alt="Brand 1" width="132" height="35" />
-      <img src="/images/logoipsum-221.svg" alt="Brand 2" width="119" height="30" />
-      <img src="/images/logoipsum-225.svg" alt="Brand 3" width="49" height="48" />
-      <img src="/images/logoipsum-280.svg" alt="Brand 4" width="78" height="30" />
-      <img src="/images/logoipsum-284.svg" alt="Brand 5" width="70" height="44" />
-      <img src="/images/logoipsum-215.svg" alt="Brand 6" width="132" height="40" />
+      <img src="/images/logoipsum-211.svg" alt="Brand 1" width="200px"  />
+      <img src="/images/logoipsum-221.svg" alt="Brand 2"  width="200px"  />
+      <img src="/images/logoipsum-225.svg" alt="Brand 3" width="200px"  />
+      <img src="/images/logoipsum-280.svg" alt="Brand 4" width="200px"  />
+      <img src="/images/logoipsum-284.svg" alt="Brand 5" width="200px"  />
+      <img src="/images/logoipsum-215.svg" alt="Brand 6" width="200px"  />
     </div>
 
     <section class="container my-16">
@@ -45,29 +45,29 @@ useSeoMeta({
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
         <img src="/icons/box.svg" width="60" height="60" alt="Free Shipping" loading="lazy" />
         <div>
-          <h3 class="text-xl font-semibold">Free Shipping</h3>
-          <p class="text-sm">Free shipping on order over €50</p>
+          <h3 class="text-xl font-semibold">Consegna Gratuita</h3>
+          <p class="text-sm">Oltre i €50 la consegna è gratuita</p>
         </div>
       </div>
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
         <img src="/icons/moneyback.svg" width="60" height="60" alt="Money Back" loading="lazy" />
         <div>
-          <h3 class="text-xl font-semibold">Peace of Mind</h3>
-          <p class="text-sm">30 days money back guarantee</p>
+          <h3 class="text-xl font-semibold">Rilassati</h3>
+          <p class="text-sm">Pensiamo a tutto noi!</p>
         </div>
       </div>
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
         <img src="/icons/secure.svg" width="60" height="60" alt="Secure Payment" loading="lazy" />
         <div>
-          <h3 class="text-xl font-semibold">100% Payment Secure</h3>
-          <p class="text-sm">Your payment are safe with us.</p>
+          <h3 class="text-xl font-semibold">Pagamento Sicuro</h3>
+          <p class="text-sm">Pagamento 100% sicuro.</p>
         </div>
       </div>
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
         <img src="/icons/support.svg" width="60" height="60" alt="Support 24/7" loading="lazy" />
         <div>
-          <h3 class="text-xl font-semibold">Support 24/7</h3>
-          <p class="text-sm">24/7 Online support</p>
+          <h3 class="text-xl font-semibold">Assistenza</h3>
+          <p class="text-sm">Contattaci per avere supporto sul tuo ordine</p>
         </div>
       </div>
     </section>

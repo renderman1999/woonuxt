@@ -1,6 +1,9 @@
 <script setup lang="ts">
+
 import { loadStripe } from '@stripe/stripe-js';
 import type { Stripe, StripeElements, CreateSourceData, StripeCardElement } from '@stripe/stripe-js';
+
+
 
 const { t } = useI18n();
 const { query } = useRoute();
@@ -17,6 +20,7 @@ const isInvalidEmail = ref<boolean>(false);
 const stripe: Stripe | null = stripeKey ? await loadStripe(stripeKey) : null;
 const elements = ref();
 const isPaid = ref<boolean>(false);
+
 
 onBeforeMount(async () => {
   if (query.cancel_order) window.close();

@@ -12,16 +12,16 @@ const { wishlistLink } = useAuth();
         <LangSwitcher class="mt-8" />
       </div>
       <div class="w-3/7 lg:w-auto">
-        <div class="mb-1 font-semibold">Information</div>
+        <div class="mb-1 font-semibold">Informazioni</div>
         <div class="text-sm">
-          <a class="py-1.5 block" href="https://github.com/scottyzen/woonuxt?tab=readme-ov-file#next-generation-front-end-for-woocommerce" target="_blank">About</a>
-          <a href="/" class="py-1.5 block">Careers</a>
+          <a class="py-1.5 block" href="https://github.com/scottyzen/woonuxt?tab=readme-ov-file#next-generation-front-end-for-woocommerce" target="_blank">{{ $t('messages.informazioni.about') }}</a>
+          <a href="/" class="py-1.5 block">{{ $t('messages.informazioni.careers') }}</a>
           <a href="/" class="py-1.5 block">Press</a>
           <a href="https://woonuxt.com/faq" class="py-1.5 block" rel="noreferrer" target="_blank">FAQ's</a>
         </div>
       </div>
       <div class="w-3/7 lg:w-auto">
-        <div class="mb-1 font-semibold">Products</div>
+        <div class="mb-1 font-semibold">Prodotti</div>
         <div class="text-sm">
           <NuxtLink to="/products" class="py-1.5 block">{{ $t('messages.shop.newArrivals') }}</NuxtLink>
           <NuxtLink to="/products?filter=sale[true]" class="py-1.5 block">On sale</NuxtLink>
@@ -51,8 +51,8 @@ const { wishlistLink } = useAuth();
     <div class="container border-t flex items-center justify-center mb-4">
       <div class="copywrite">
         <p class="py-4 text-xs text-center">
-          <a href="https://woonuxt.com" :title="`WooNuxt v${wooNuxtVersionInfo}`">{{ `WooNuxt v${wooNuxtVersionInfo}` }}</a> - by
-          <a href="https://scottyzen.com" title="Scott Kennedy - Web Developer" target="_blank">Scott Kennedy</a>
+          <a href="https://woonuxt.com" :title="`Taste Delivery Taranto`">Taste Delivery Taranto</a> - by
+          <a href="https://scottyzen.com" title="Scott Kennedy - Web Developer" target="_blank">Asymetrica</a>
         </p>
       </div>
       <SocialIcons class="ml-auto" />

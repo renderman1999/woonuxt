@@ -273,4 +273,18 @@ input[type='radio']:checked:after {
   opacity: 1;
   transform: scale(1);
 }
+.titolo_ombra{
+  color: #f4f4f4;
+  text-shadow: 3px 1px 3px #363535;
+}
+.sfondo_home{
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.sfondo_arancione{
+  background: #FFAD02;
+}
 </style>
